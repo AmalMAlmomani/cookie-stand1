@@ -232,14 +232,5 @@ myShop.addEventListener('submit', function (event) {
         myShop.reset();
     }
 
-
-
-
-
 })
-
-
-
-
-
 
