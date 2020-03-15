@@ -20,7 +20,8 @@ function Shop(location, minCustomer, maxCustomer, Avg) {
 
 Shop.prototype.avgCustomer = function () {
     for (var i = 0; i < hours.length; i++) {
-        this.customer.push(Math.floor(Math.random() * (this.maxCustomer - this.minCustomer + 1)) + this.minCustomer);
+        this.customer.push(Math.floor(Math.random() * (this.maxCustomer -
+ this.minCustomer + 1)) + this.minCustomer);
     }
 }
 
